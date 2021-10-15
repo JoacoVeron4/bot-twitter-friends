@@ -1,4 +1,4 @@
-const config = require("./config/config.js");
+const config = require("./config.js");
 const Twit = require("twit");
 
 const T = new Twit(config);

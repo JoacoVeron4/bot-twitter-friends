@@ -2,10 +2,7 @@
   "name": "bottwttierfriends",
   "version": "1.0.0",
   "description": "Bot de twitter que respondera con un episodio al azar de la serie Friends",
-  "main": "index.ts",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "main": "index.js",
   "keywords": [
     "bot",
     "twitter",
