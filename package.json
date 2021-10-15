@@ -1,0 +1,22 @@
+{
+  "name": "bottwttierfriends",
+  "version": "1.0.0",
+  "description": "Bot de twitter que respondera con un episodio al azar de la serie Friends",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bot",
+    "twitter",
+    "bottwitter",
+    "friends"
+  ],
+  "author": "JoacoVeron4",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "jsonfile": "^6.1.0",
+    "twit": "^2.2.11"
+  }
+}
