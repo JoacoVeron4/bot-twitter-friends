@@ -1,7 +1,8 @@
-const Twit = require("twit");
 const config = require("./config/config.js");
+const Twit = require("twit");
 
 const T = new Twit(config);
+
 const stream = T.stream("statuses/filter", { track: "#FriendsRandomEpisode" });
 const jsonfile = require("jsonfile");
 
